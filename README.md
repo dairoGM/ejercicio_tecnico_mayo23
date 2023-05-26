@@ -1,9 +1,20 @@
 # api_caso_estudio
+```
+Technologies: Symphony 5 (Framework de php) y Postgres (BD)
+```
 
+# Descripción
+```
+1.Para el caso de estudio se definieron 4 entidades:
 
-Technologies:
-Framework: Symphony 5
-Database: Postgres
+User, para manejar los usuarios y sus roles
+Product, para la gestión de los productos
+Stock, para definir las cantidades de productos, sería como la simulación de un almacen
+Sales, para administrar las ventas.
+
+2.Se hace uso de jwt, para la autenticación de los usuarios
+3.Para los niveles de acceso a los determinados endpoint se realizan configuraciones de rutas
+```
 
 # Como instalar el api
 ```
